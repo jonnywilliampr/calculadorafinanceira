@@ -1,13 +1,32 @@
 h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Ubuntu', sans-serif;
-    color: $white;
     font-weight: 400;
 }
 
-a{
-    text-decoration: none;
+h1{
+    color: $white;
+}
+
+h2{
+    color: $white;
 }
 
 .logo a{
     font-weight: bold;
+    color: $white;
+    text-decoration: none;
+}
+
+a.link{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 10px;
 }

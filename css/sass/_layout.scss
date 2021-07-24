@@ -26,7 +26,7 @@ span{
     color: $green;
 }
 
-ul{
+ul.navlinks{
     float: right;
 }
 
@@ -37,7 +37,7 @@ ul{
     justify-content: flex-end;
 }
 
-li{
+li.links{
     text-decoration: none;
     list-style: none;
     display: inline;
@@ -80,4 +80,85 @@ li{
         }
     }
 
+}
+
+main{
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    margin-top: 60px;
+}
+
+.container{
+    width: 1200px;
+    height: 600px;
+    margin-top: 40px;
+    background-color: $white;
+    border-radius: 20px;
+}
+
+ul.calculadora{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li.calc{
+    padding: 24px 0px;
+}
+
+a.calc-link{
+    padding: 24px 66.9px;
+    text-decoration: none;
+    color: $gray;
+    font-weight: bold;
+}
+
+.calc-1{
+    border: 1px solid $white;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.calc-2{
+    border: 1px solid $white-gray;
+    background-color: $white-dark;
+}
+
+.calc-3{
+    border: 1px solid $white-gray;
+    background-color: $white-dark;
+}
+
+.calc-4{
+    border: 1px solid $white-gray;
+    background-color: $white-dark;
+}
+
+.calc-5{
+    border: 1px solid $white-gray;
+    background-color: $white-dark;
+    border-radius: 0px 20px 0px 0px;
+}
+
+
+.cont{
+    display: flex;
+}
+
+.cont-1{
+    width: 600px;
+    height: 533px;
+    border: 1px solid red;
+}
+
+.cont-2{
+    width: 600px;
+    height: 533px;
+    border: 1px solid red;
 }
