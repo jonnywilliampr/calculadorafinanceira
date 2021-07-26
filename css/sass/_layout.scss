@@ -121,29 +121,55 @@ a.calc-link{
 }
 
 .calc-1{
-    border: 1px solid $white;
+    border: 1px solid $white-gray;
+    background-color: $white-dark;
     border-radius: 20px 0px 0px 0px;
+    transition: .5s ease;
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+    }
 }
 
 .calc-2{
     border: 1px solid $white-gray;
     background-color: $white-dark;
+    transition: .5s ease;
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+    }
 }
 
 .calc-3{
     border: 1px solid $white-gray;
     background-color: $white-dark;
+    transition: .5s ease;
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+    }
 }
 
 .calc-4{
     border: 1px solid $white-gray;
     background-color: $white-dark;
+    transition: .5s ease;
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+    }
 }
 
 .calc-5{
     border: 1px solid $white-gray;
     background-color: $white-dark;
     border-radius: 0px 20px 0px 0px;
+    transition: .5s ease;
+    &:hover{
+        border: 1px solid $white;
+        background-color: $white;
+    }
 }
 
 
@@ -152,13 +178,56 @@ a.calc-link{
 }
 
 .cont-1{
-    width: 600px;
+    width: 450px;
     height: 533px;
-    border: 1px solid red;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: row;
+}
+
+.subcont-1{
+    width: 185px;
+    height: 185px;
+    background-color: $white-gray;
+    border: 3px solid $white-gray;
+    border-radius: 10px;
+    padding: 36px 24px;
+
+    &:hover{
+        background-color: $white;
+        border: 3px solid $green;
+    }
+}
+
+.subcont-1 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: $gray;
+}
+
+.subcont-2{
+    width: 185px;
+    height: 185px;
+    background-color: $white-gray;
+    border: 3px solid $white-gray;
+    border-radius: 10px;
+    padding: 36px 24px;
+
+    &:hover{
+        background-color: $white;
+        border: 3px solid $green;
+    }
+}
+
+.subcont-2 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: $gray;
 }
 
 .cont-2{
     width: 600px;
     height: 533px;
-    border: 1px solid red;
 }
