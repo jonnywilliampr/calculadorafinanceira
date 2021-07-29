@@ -841,13 +841,14 @@ a.calc-link {
 .subcont-1 {
   width: 185px;
   height: 185px;
-  background-color: #fff;
-  border: 3px solid #53B151;
+  background-color: #EFEFEF;
+  border: 3px solid #EFEFEF;
   border-radius: 10px;
   padding: 36px 24px;
+  cursor: pointer;
 }
 
-.subcont-1:hover {
+.subcont-1:focus {
   background-color: #fff;
   border: 3px solid #53B151;
 }
@@ -865,9 +866,10 @@ a.calc-link {
   border: 3px solid #EFEFEF;
   border-radius: 10px;
   padding: 36px 24px;
+  cursor: pointer;
 }
 
-.subcont-2:hover {
+.subcont-2:focus {
   background-color: #fff;
   border: 3px solid #53B151;
 }
@@ -913,6 +915,33 @@ a.sublink {
 
 form {
   margin-top: 30px;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+}
+
+form ::-webkit-input-placeholder {
+  color: #DDDDDD;
+  font-size: 18px;
+}
+
+form :-ms-input-placeholder {
+  color: #DDDDDD;
+  font-size: 18px;
+}
+
+form ::-ms-input-placeholder {
+  color: #DDDDDD;
+  font-size: 18px;
+}
+
+form ::placeholder {
+  color: #DDDDDD;
+  font-size: 18px;
+}
+
+form :focus {
+  border: 2px solid #53B151;
+  outline: none;
 }
 
 .label-01 {
@@ -973,5 +1002,36 @@ p.footer-2 {
   margin-top: 30px;
   margin-bottom: 50px;
   color: #fff;
+}
+
+.cont-3 {
+  width: 600px;
+  height: 500px;
+  margin-top: 70px;
+  background-color: #EFEFEF;
+  border: 3px solid #EFEFEF;
+  border-radius: 10px;
+}
+
+.infocont {
+  margin-top: 50px;
+}
+
+.cont-3 h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #606060;
+  font-size: 36px;
+}
+
+.cont-3 p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #606060;
+}
+
+.invisible {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
